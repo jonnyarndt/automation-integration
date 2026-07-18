@@ -1,0 +1,13 @@
+name = "ai-contact-form"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+# Secrets — stored in Cloudflare, never in this file or the repo.
+# Set them once with the Wrangler CLI (prompts for value, not echoed):
+#
+#   wrangler secret put MAILGUN_API_KEY
+#   wrangler secret put MAILGUN_DOMAIN
+#   wrangler secret put MAILGUN_TO
+#
+# Deploy:
+#   wrangler deploy
